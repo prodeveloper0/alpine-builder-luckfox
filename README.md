@@ -12,15 +12,15 @@ I tested on my Ubuntu 22.04.4 LTS
 3. Use `alpine.tar.gz` as root file system in your luckfox SBC
 
 # Customization
-## Install packages by `packages`
-You can add package installation scripts in `packages` directory.
+## Install packages by `*.packages`
+You can add package installation scripts in `*.packages` directory.
 
 package installation scripts are executed brefore building rootfs structure.
 
-__SCRIPTS IN `packages` MUST BE EXECUTABLE__
+__SCRIPTS IN `*.packages` MUST BE EXECUTABLE__
 
-## Add files or directories by `overlay`
-You can create built-in file system structure or add files in `overlay` directory.
+## Add files or directories by `*.overlay`
+You can create built-in file system structure or add files in `*.overlay` directory.
 
 overlay file system is applied before archiving rootfs.
 

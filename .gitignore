@@ -1,3 +1,5 @@
 alpine.tar.gz
-packages/*
-!packages/ADD HERE
+user.overlay/*
+user.packages/*
+!user.overlay/.gitkeep
+!user.packages/.gitkeep
