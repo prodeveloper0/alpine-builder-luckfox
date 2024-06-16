@@ -24,7 +24,7 @@ You can create built-in file system structure or add files in `overlay` director
 
 overlay file system is applied before archiving rootfs.
 
-# Build with custom rootfs
+# Build SDK with custom rootfs
 luckfox provides a method to build SDK with custom rootfs.
 
 https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-Alpine-Linux-2#9-package-the-rootfs-and-integrate-it-into-the-sdk-for-image-building
