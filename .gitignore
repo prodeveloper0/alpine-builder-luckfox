@@ -1,4 +1,6 @@
 alpine.tar.gz
+rootfs.ext4
+my-rootfs/
 user.overlay/*
 user.packages/*
 !user.overlay/.gitkeep
