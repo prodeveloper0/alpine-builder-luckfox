@@ -17,7 +17,7 @@ You can add package installation scripts in `packages` directory.
 
 package installation scripts are executed brefore building rootfs structure.
 
-__A SCRIPT IN `packages` MUST BE EXECUTABLE__
+__SCRIPTS IN `packages` MUST BE EXECUTABLE__
 
 ## Add files or directories by `overlay`
 You can create built-in file system structure or add files in `overlay` directory.
